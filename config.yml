@@ -1,0 +1,18 @@
+debug: false
+uuid: 3349006c-7bc6-4200-8608-0197604f4fde
+token_id: qdaLXdFmlHJbFcDM
+token: Tt7MG3mUY93Hbufx2KodGj8KDmJiJeAif8WC3mvliFc7RISlPBw8hWG5OdHqisB6
+api:
+  host: 0.0.0.0
+  port: 443
+  ssl:
+    enabled: false
+    cert: /etc/letsencrypt/live/summary-sharing-cub.ngrok-free.app/fullchain.pem
+    key: /etc/letsencrypt/live/summary-sharing-cub.ngrok-free.app/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://animated-space-guide-4jqjp5rvr996hjr7x-80.app.github.dev'
